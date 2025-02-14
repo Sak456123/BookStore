@@ -1,0 +1,55 @@
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 20px; /* Adds spacing */
+	flex-direction: row;
+
+}
+
+li {
+	padding: 10px;
+	width: 250px;
+	max-width: 250px;
+	max-height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.card {
+	margin: auto;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 5px 5px 10px #ccc;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 8px;
+	background: #fff;
+}
+
+.card > img {
+	width: 50%;
+	height: 100px; /* ✅ Fix image size */
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.card article {
+	padding: 5px;
+	font-size: 14px;
+	color: #555;
+}
+
+.card h3{
+	padding: 4px;
+}
+
+.card p{
+	padding: 3x;
+}
